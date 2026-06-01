@@ -7,8 +7,13 @@ function renderSolveButton() {
 
   document.body.appendChild(solveButton);
 
+  // On click, read the board, solve it, and fill in the answers
   solveButton.addEventListener("click", () => {
-    console.log("Solve clicked");
+    const path = document.URL; // get the current URL to determine which puzzle we're on
+
+    if (path === "https://www.linkedin.com/games/mini-sudoku/") {
+      solveSudoku();
+    }
   });
 }
 
