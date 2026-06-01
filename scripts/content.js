@@ -13,6 +13,8 @@ function renderSolveButton() {
 
     if (path === "https://www.linkedin.com/games/mini-sudoku/") {
       solveSudoku();
+    } else if (path === "https://www.linkedin.com/games/tango/") {
+      solveTango();
     }
   });
 }
