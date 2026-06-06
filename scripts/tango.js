@@ -13,6 +13,8 @@ const solveTango = () => {
     }
   });
 
+  console.log("Tango data:", data);
+
   const simulateClick = (element) => {
     const opts = { bubbles: true, cancelable: true, view: window };
     element.dispatchEvent(new PointerEvent("pointerdown", opts));
