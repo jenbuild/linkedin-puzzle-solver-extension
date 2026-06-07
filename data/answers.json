@@ -1,0 +1,30 @@
+{
+  "crossclimb": [
+    {
+      "clue": "Drink that might be free in a restaurant",
+      "answer": "WATER"
+    },
+    {
+      "clue": "Greeted someone from a distance",
+      "answer": "WAVED"
+    },
+    {
+      "clue": "Playful prank or criminal plan",
+      "answer": "CAPER"
+    },
+    {
+      "clue": "Wobble uncertainly",
+      "answer": "WAVER"
+    },
+    {
+      "clue": "Provide food for a large banquet",
+      "answer": "CATER"
+    }
+  ],
+  "pinpoint": [
+    {
+      "clue": "First",
+      "answer": "class"
+    }
+  ]
+}

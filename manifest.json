@@ -6,8 +6,20 @@
   "content_scripts": [
     {
       "matches": ["https://www.linkedin.com/games/*"],
-      "js": ["scripts/content.js", "scripts/sudoku.js"],
+      "js": [
+        "scripts/content.js",
+        "scripts/solvers/sudoku.js",
+        "scripts/solvers/tango.js",
+        "scripts/solvers/crossclimb.js",
+        "scripts/solvers/pinpoint.js"
+      ],
       "css": ["styles/content.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["data/answers.json"],
+      "matches": ["https://www.linkedin.com/*"]
     }
   ]
 }
