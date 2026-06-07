@@ -20,5 +20,11 @@
       "clue": "Provide food for a large banquet",
       "answer": "CATER"
     }
+  ],
+  "pinpoint": [
+    {
+      "clue": "First",
+      "answer": "class"
+    }
   ]
 }

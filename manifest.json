@@ -10,7 +10,8 @@
         "scripts/content.js",
         "scripts/solvers/sudoku.js",
         "scripts/solvers/tango.js",
-        "scripts/solvers/crossclimb.js"
+        "scripts/solvers/crossclimb.js",
+        "scripts/solvers/pinpoint.js"
       ],
       "css": ["styles/content.css"]
     }

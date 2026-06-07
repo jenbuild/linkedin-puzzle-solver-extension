@@ -17,6 +17,8 @@ function renderSolveButton() {
       solveTango();
     } else if (path === "https://www.linkedin.com/games/crossclimb/") {
       solveCrossclimb();
+    } else if (path === "https://www.linkedin.com/games/pinpoint/") {
+      solvePinpoint();
     }
   });
 }
