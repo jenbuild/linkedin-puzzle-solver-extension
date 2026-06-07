@@ -15,6 +15,8 @@ function renderSolveButton() {
       solveSudoku();
     } else if (path === "https://www.linkedin.com/games/tango/") {
       solveTango();
+    } else if (path === "https://www.linkedin.com/games/crossclimb/") {
+      solveCrossclimb();
     }
   });
 }
